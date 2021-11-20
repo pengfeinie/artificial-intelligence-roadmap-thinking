@@ -64,7 +64,7 @@ The left-most “A” configuration is called VGG11, as it has 11 layers with we
 
 **VGG16** is a convolutional neural network model proposed by K. Simonyan and A. Zisserman from the University of Oxford in the paper “Very Deep Convolutional Networks for Large-Scale Image Recognition”. The model achieves 92.7% top-5 test accuracy in ImageNet, which is a dataset of over 14 million images belonging to 1000 classes. It was one of the famous model submitted to [ILSVRC-2014](http://www.image-net.org/challenges/LSVRC/2014/results). It makes the improvement over AlexNet by replacing large kernel-sized filters (11 and 5 in the first and second convolutional layer, respectively) with multiple 3×3 kernel-sized filters one after another. VGG16 was trained for weeks and was using NVIDIA Titan Black GPU’s.
 
-![vgg16 architecture ](https://neurohive.io/wp-content/uploads/2018/11/vgg16.png)
+![img](https://pengfeinie.github.io/images/vgg16-neural-network.jpg)
 
 ### **DataSet**
 
@@ -75,8 +75,6 @@ The left-most “A” configuration is called VGG11, as it has 11 layers with we
 Of all the configurations, VGG16 was identified to be the best performing model on the ImageNet dataset. Let’s review the actual architecture of this configuration. [source](https://www.mygreatlearning.com/blog/introduction-to-vgg16/)
 
  ![img](https://lh5.googleusercontent.com/yiz4POx7TGD21dQ7QvfI7fW5l4DNdvfR-EJsMmvxrKdeM9KNqz2TNWnOD7zmtIDXunVbx6zdXzQrL_6KD03QdIRauzwlaOidT9WIQA1O1NQ-M8_nqIes3hf_6SFVCQJQ2rKPWIkWearCBG5f1g=s0)
-
-![VGG16 Artitecture](https://neurohive.io/wp-content/uploads/2018/11/vgg16-neural-network.jpg)
 
 The input to cov1 layer is of fixed size 224 x 224 RGB image. The image is passed through a stack of convolutional (conv.) layers, where the filters were used with a very small receptive field: 3×3 (which is the smallest size to capture the notion of left/right, up/down, center). In one of the configurations, it also utilizes 1×1 convolution filters, which can be seen as a linear transformation of the input channels (followed by non-linearity). The convolution stride is fixed to 1 pixel; the spatial padding of conv. layer input is such that the spatial resolution is preserved after convolution, i.e. the padding is 1-pixel for 3×3 conv. layers. Spatial pooling is carried out by five max-pooling layers, which follow some of the conv. layers (not all the conv. layers are followed by max-pooling). Max-pooling is performed over a 2×2 pixel window, with stride 2.
 
