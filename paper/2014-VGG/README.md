@@ -44,7 +44,11 @@ The convolution stacks are followed by three fully connected layers, two with si
 
 VGG16 refers to the configuration “D” in the table listed below. The configuration “C” also has 16 weight layers. However, it uses a 1 x 1 filter as the last convolution layer in stacks 3, 4, and 5. This layer was used to increase the non-linearity of the decision functions without affecting the receptive field of the layer.
 
-In this discussion, we will refer to configuration “D” as VGG16 unless otherwise stated.
+In this discussion, we will refer to configuration “D” as VGG16 unless otherwise stated. [source](https://www.mygreatlearning.com/blog/introduction-to-vgg16/)
+
+![img](https://lh3.googleusercontent.com/TtW43wmz1iQSVUnHZ7lMBwQ-PzogmkxpKskveXM40BoHC4JvJENw3ZXbgznlW1QSSgN1kx3BkwG8vrFo7NDGOLrMdAg7ie-GDOVr60G1ugqJ8KVOXRDGqZbno7aCyyyWqjf6qNjYaAtimfMu6w=s0)
+
+The left-most “A” configuration is called VGG11, as it has 11 layers with weights – primarily the convolution layers and fully connected layers. As we go right from left, more and more convolutional layers are added, making them deeper and deeper. Please note that the ReLU activation layer is not indicated in the table. It follows every convolutional layer.
 
 ## **VGG 16 Architecture**
 
