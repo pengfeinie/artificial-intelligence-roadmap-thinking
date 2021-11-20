@@ -34,6 +34,14 @@ So what was new in this model compared to the top-performing models AlexNet-2012
 
 The idea behind using 3 x 3 filters uniformly is something that makes the VGG stand out. Two consecutive 3 x 3 filters provide for an effective receptive field of 5 x 5. Similarly, three 3 x 3 filters make up for a receptive field of 7 x 7. This way, a combination of multiple 3 x 3 filters can stand in for a receptive area of a larger size. 
 
+But then, what is the benefit of using three 3 x 3 layers instead of a single 7 x 7 layer? Isn’t it increasing the no. of layers, and in turn, the complexity unnecessarily? No. In addition to the three convolution layers, there are also three non-linear activation layers instead of a single one you would have in 7 x 7. This makes the decision functions more discriminative. It would impart the ability to the network to converge faster. 
+
+Secondly, it also reduces the number of weight parameters in the model significantly. Assuming that the input and output of a three-layer 3 x 3 convolutional stack have C channels, the total number of weight parameters will be 3 * 32 C2 = 27 C2. If we compare this to a 7 x 7 convolutional layer, it would require 72 C2 = 49 C2, which is almost twice the 3 x 3 layers. Additionally, this can be seen as a regularization on the 7 x 7 convolutional filters forcing them to have a decomposition through the 3 x 3 filters, with, of course, the non-linearity added in-between by means of ReLU activations. This would reduce the tendency of the network to over-fit during the training exercise. 
+
+Another question is – can we go lower than 3 x 3 receptive size filters if it provides so many benefits? The answer is “No.” 3 x 3 is considered to be the smallest size to capture the notion of left to right, top to down, etc. So lowering the filter size further could impact the ability of the model to understand the spatial features of the image.
+
+The consistent use of 3 x 3 convolutions across the network made the network very simple, elegant, and easy to work with.
+
 ## **VGG Configurations**
 
 The authors proposed various configurations of the network based on the depth of the network. They experimented with several such configurations, and the following ones were submitted during the ImageNet Challenge. 
