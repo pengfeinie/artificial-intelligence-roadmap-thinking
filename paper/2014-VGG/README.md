@@ -103,4 +103,5 @@ The stacks of convolutional layers are followed by three fully connected layers 
 - https://towardsdatascience.com/vgg-neural-networks-the-next-step-after-alexnet-3f91fa9ffe2c
 - https://www.robots.ox.ac.uk/~vgg/research/very_deep/
 - https://neurohive.io/en/popular-networks/vgg16/
+- https://github.com/ashushekar/VGG16
 
