@@ -28,3 +28,5 @@ https://cs230.stanford.edu/syllabus/
 
 https://www.coursera.org/specializations/deep-learning
 
+https://www.jeremyjordan.me/neural-networks-training/
+
