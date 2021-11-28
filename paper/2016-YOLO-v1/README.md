@@ -334,3 +334,4 @@ Download: https://pjreddie.com/media/files/yolov3.weights and move to under cfg 
 - https://jonathan-hui.medium.com/real-time-object-detection-with-yolo-yolov2-28b1b93e2088
 - https://araintelligence.com/blogs/deep-learning/object-detection/yolo_v1
 - http://yann.lecun.com/exdb/lenet/
+- https://homes.cs.washington.edu/~ali/index.html
