@@ -16,6 +16,12 @@ https://stanford.edu/~shervine/teaching/cs-229/
 
 https://cs229.stanford.edu/syllabus.html
 
+https://cs229.stanford.edu/syllabus-spring2019.html
+
+https://cs229.stanford.edu/syllabus-summer2019.html
+
+https://cs229.stanford.edu/syllabus-fall2019.html
+
 https://www.coursera.org/learn/machine-learning
 
 ## 3. Deep Learning
