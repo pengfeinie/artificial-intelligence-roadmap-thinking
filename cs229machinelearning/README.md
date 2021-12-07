@@ -1,6 +1,6 @@
 ## What is Machine Learning?
 
-Two definitions of Machine Learning are offered. 
+Two definitions of Machine Learning are offered. https://cs229.stanford.edu/notes-spring2019/lecture1_slide.pdf
 
 Arthur Samuel described it as: "**the field of study that gives computers the ability to learn without being explicitly programmed.**" This is an older, informal definition.
 
