@@ -106,4 +106,6 @@ The stacks of convolutional layers are followed by three fully connected layers 
 - https://github.com/ashushekar/VGG16
 - https://www.robots.ox.ac.uk/~vgg/research/very_deep/
 - https://www.kaggle.com/blurredmachine/vggnet-16-architecture-a-complete-guide
+- https://icmlviz.github.io/icmlviz2016/assets/papers/4.pdf
+- https://neurohive.io/en/popular-networks/vgg16/
 

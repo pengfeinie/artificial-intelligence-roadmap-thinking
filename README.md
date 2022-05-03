@@ -30,3 +30,5 @@ https://www.coursera.org/specializations/deep-learning
 
 https://www.jeremyjordan.me/neural-networks-training/
 
+https://datahacker.rs/deep-learning/
+

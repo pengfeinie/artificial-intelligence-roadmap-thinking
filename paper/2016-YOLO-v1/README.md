@@ -335,3 +335,4 @@ Download: https://pjreddie.com/media/files/yolov3.weights and move to under cfg 
 - https://araintelligence.com/blogs/deep-learning/object-detection/yolo_v1
 - http://yann.lecun.com/exdb/lenet/
 - https://homes.cs.washington.edu/~ali/index.html
+- https://datahacker.rs/deep-learning/
